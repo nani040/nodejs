@@ -15,9 +15,9 @@ hbs.registerHelper('screamIt', (text) => {
 	return text.toUpperCase();
 });
 
-app.use((req,res,next) => {
-	res.render('maint');
-});
+// app.use((req,res,next) => {
+// 	res.render('maint');
+// });
 
 app.use((req, res, next) => {
 	var now = new Date().toString();
